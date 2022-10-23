@@ -1,0 +1,74 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    color: grey;
+    margin-top: 3rem;
+}
+
+hr{
+    margin-left: 28rem;
+    margin-right: 28rem;
+}
+
+.card{
+    margin-left: 12rem;
+    margin-right: 6rem;
+    box-shadow: -3rem 3rem black; 
+    
+}
+.col1{
+    background-color: #FFD700;
+    color: white;
+    width: 33%;
+    float: left;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 200px 48px 206px 48px;
+}
+
+.col2{
+    width: 534px;
+    float: right;
+    background-color: white;
+    margin-right: 174px;
+    padding: 5px 5px 91px 5px;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;    
+}
+
+.text{
+    font-size: 13px;
+}
+
+.user{
+    padding: 9px 93px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    box-shadow: -3px 3px grey; 
+}
+
+.login{
+    padding: 7px 30px 7px 30px;
+    background-color: #FFD700;
+    color: white;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: 15px;
+}
+.lines{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.detail{
+    font-size: 10px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
