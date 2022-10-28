@@ -7,6 +7,7 @@
     <title>login page by: PiyushAgarwal14</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <script src="script.js"></script>
   <body>
     <h1>
       <b> Log in Form</b>
@@ -30,13 +31,14 @@
               </p>
             </div>
 
-            <form action="">
+            <form name="myForm" action="" onsubmit="return validateForm()"  required>
               <input
                 type="text"
                 id="user"
                 name="user"
                 class="user"
                 placeholder="Username"
+                
               />
               <br />
               <input
@@ -45,6 +47,7 @@
                 id="pass"
                 class="user"
                 placeholder="Password"
+                
               />
               <br />
               <div>
