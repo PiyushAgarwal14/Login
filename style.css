@@ -16,6 +16,7 @@ hr{
 .card{
     margin-left: 180px;
     margin-right: 270px;
+    
     /* box-shadow: -3rem 3rem black;  */
     
 }
@@ -26,10 +27,13 @@ hr{
     float: left;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
-    padding-top: 158px;
-    padding-bottom: 158px;
+    padding-top: 198px;
+    padding-bottom: 198px;
 }
 
+.cn{
+    font-size:35px
+}
 .col2{
     width: 50%;
     float: right;
@@ -40,16 +44,25 @@ hr{
     border-bottom-right-radius: 2rem;    
 }
 
+.right_side{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: gray;
+}
 .text{
-    font-size: 13px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .user{
+    margin-left: 6rem;
     padding: 12px 17%;
     border-top-style: hidden;
     border-left-style: hidden;
     border-right-style: hidden;
     box-shadow: -3px 3px grey; 
+    margin-top: 15px;
 }
 
 .login{
@@ -61,6 +74,7 @@ hr{
     border-right-style: hidden;
     border-bottom-style: hidden;
     border-radius: 15px;
+    margin-left: 220px;
 }
 .lines{
     margin-top: 3rem;
@@ -69,9 +83,12 @@ hr{
 }
 
 .detail{
-    font-size: 10px;
+    text-align: center;
     margin-left: 3rem;
     margin-right: 3rem;
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 2rem;
 }
 
 
@@ -116,4 +133,36 @@ hr{
 
     .user{
         padding: 9px 2px;
+    }
+
+    .login{
+        margin-left: 8rem;
+    }
   }
+
+  @media only screen and (max-width: 1080px) {
+
+    .user{
+        padding: 5px 2px;
+        margin-left: 5rem;
+    }
+
+    .login{
+        margin-left: 130px;
+    }
+
+    .cn{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 12px;
+    }
+
+    .right_side{
+        font-size: 30px;
+    }
+    .col2{
+        padding-bottom: 9px;
+    }
+}
